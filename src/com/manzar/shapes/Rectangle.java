@@ -2,10 +2,10 @@ package com.manzar.shapes;
 
 public class Rectangle extends Shape {
 
-    public static final String RECTANGLE_INFO = "This is a rectangle!";
+    private static final String RECTANGLE = "rectangle";
 
     @Override
-    public void printShapeName() {
-        System.out.println(RECTANGLE_INFO);
+    public String getShapeTitle() {
+        return RECTANGLE;
     }
 }

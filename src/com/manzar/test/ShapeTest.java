@@ -2,16 +2,16 @@ package com.manzar.test;
 
 import com.manzar.shapes.*;
 
+import static com.manzar.printers.ShapePrinter.printShapeInfo;
+
 public class ShapeTest {
     public static void main(String[] args) {
-        printShape(new Circle());
-        printShape(new Rectangle());
-        printShape(new Rhombus());
-        printShape(new Square());
-        printShape(new Triangle());
-    }
-
-    private static void printShape(Shape shape) {
-        shape.printShapeName();
+        printShapeInfo(new Circle());
+        printShapeInfo(new Rectangle());
+        printShapeInfo(new Rhombus());
+        printShapeInfo(new Square());
+        printShapeInfo(new Triangle());
     }
 }
+
+
